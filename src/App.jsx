@@ -14,20 +14,22 @@ function App() {
             <a className="navbar-brand" href="/">
               My FireStore
             </a>
-            <div className="collapse navbar-collapse">
-              <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Auth Page
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/home">
-                    Home
-                  </a>
-                </li>
-              </ul>
-            </div>
+      
+            <div class="collapse navbar-collapse">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+      <a class="nav-link btn btn-primary text-success px-4 py-2 rounded-3 shadow-sm" href="/" role="button">
+        Log In
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link btn btn-success text-success px-4 py-2 rounded-3 shadow-sm" href="/home" role="button">
+        Home
+      </a>
+    </li>
+  </ul>
+</div>
+
           </div>
         </nav>
         <Routes>
